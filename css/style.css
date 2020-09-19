@@ -1927,7 +1927,7 @@ html {
 }
 
 .hero.set-bg{
-  background-image: url(/img/simon/hero30.png);
+  background-image: url(../img/simon/hero30.png);
 }
 
 .backStyle{
@@ -1948,27 +1948,32 @@ html {
 }
 
 .feature__gallery .back1 {
-  background-image: url(/img/simon/photos/mydva.jpg);
+  background-image: url(../img/simon/photos/mydva.jpg);
 }
 
 .feature__gallery .back2 {
-  background-image: url(/img/simon/photos/kutnahora.jpg);
+  background-image: url(../img/simon/photos/kutnahora.jpg);
 }
 
 .feature__gallery .back3 {
-  background-image: url(/img/simon/photos/mydvapodebrady.jpg);
+  background-image: url(../img/simon/photos/mydvapodebrady.jpg);
 }
 
 .feature__gallery .back4 {
-  background-image: url(/img/simon/photos/partysalsa.jpg);
+  background-image: url(../img/simon/photos/partysalsa.jpg);
 }
 
 .feature__gallery .back5 {
-  background-image: url(/img/simon/photos/kikaamyles.jpg);
+  background-image: url(../img/simon/photos/kikaamyles.jpg);
 }
 
 .feature__gallery .back6 {
-  background-image: url(/img/simon/photos/kikaamy.jpg);
+  background-image: url(../img/simon/photos/kikaamy.jpg);
+}
+
+.replystyle {
+  min-height: 70vh;
+  padding-top: 7rem;
 }
 
 /*--------------------------------- Responsive Media Quaries -----------------------------*/

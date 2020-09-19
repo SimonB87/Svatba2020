@@ -44,12 +44,12 @@
                 <div class="col-lg-8 col-md-9">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Domů</a></li>
+                            <li class="active"><a href="./index.php">Domů</a></li>
 
                             <li><a href="#">Kdy a kde</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html">Obřad</a></li>
-                                    <li><a href="./team.html">Oslava</a></li>
+                                    <li><a href="#">Obřad</a></li>
+                                    <li><a href="#">Oslava</a></li>
 <!--                                     <li><a href="./blog-details.html">Blog Details</a></li> -->
                                 </ul>
                             </li>
@@ -101,6 +101,12 @@
     <section class="services spad">
         <div class="container">
             <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <img id="bigLogo" src="img/simon/logoSimonLabut.png" alt="logo">
+                    </div>
+                </div>
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Na co si můžete těšit?</h2>
@@ -172,18 +178,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <img src="img/simon/logoSimonLabut.png" alt="logo">
                         <h2>Fotky</h2>
                         <img src="img/icon/ti.png" alt="">
-                    </div>
-                    <ul class="filter__controls">
+                    </div>    
+<!--                     <ul class="filter__controls">
                         <li class="active" data-filter="*">All</li>
                         <li data-filter=".couple">Couple</li>
                         <li data-filter=".event">Event</li>
                         <li data-filter=".music">Music Live</li>
                         <li data-filter=".honeymoon">Honeymoon</li>
                         <li data-filter=".photography">Photography</li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
             <div class="feature__gallery">
@@ -289,17 +294,16 @@
                             <h2>Zeptejte se</h2>
                             <p>Položte nám dotaz a my vám brzo odpovíme.</p>
                         </div>
-                        <form action="#">
+                        <form method="post" action="reply.php">
                             <div class="row">
-                                <p>* Kontaktní formulář ještě není funkční. Brzo ho sprovozníme.</p>
                                 <div class="col-lg-6 col-md-6 col-sm-6 px-2">
-                                    <input type="text" placeholder="Jméno">
+                                    <input type="text" id="name" name="name" placeholder="Jméno" required>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6 px-2">
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" id="email" name="email" placeholder="Email" required>
                                 </div>
                                 <div class="col-lg-12 col-md-12 col-sm-12 px-2">
-                                    <select>
+                                    <select id="option" name="option">
                                         <option value="">Obřad</option>
                                         <option value="">Party</option>
                                         <option value="">Ostatní</option>
@@ -313,7 +317,7 @@
                                     </select>
                                 </div> -->
                                 <div class="col-lg-12 px-2 text-center">
-                                    <textarea placeholder="Message"></textarea>
+                                    <textarea id="comment" name="comment" placeholder="Message"></textarea>
                                     <button type="submit" class="site-btn">Podat dotaz</button>
                                 </div>
                             </div>
@@ -455,10 +459,10 @@
                 </div> -->
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="footer__widget">
-                        <h5>Mobil</h5>
+                        <h5>Kontakt</h5>
                         <ul>
                             <li>Šimon</li>
-                            <li>+420 732716030</li>
+                            <li>Prosím použijte kontaktní formulář výše</li>
                         </ul>
                     </div>
                 </div>
