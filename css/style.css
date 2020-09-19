@@ -1921,6 +1921,56 @@ ol {
   color: #444444;
 }
 
+/*Simon edits*/
+html {
+  scroll-behavior: smooth;
+}
+
+.hero.set-bg{
+  background-image: url(/img/simon/hero30.png);
+}
+
+.backStyle{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1700px) {
+  .hero__text__back{
+    background-color: rgba(20, 20, 20, 0.4);
+  }
+}
+
+.placeholder .placeholder__block {
+  min-height: 5rem;
+  padding: 2rem 0rem;
+}
+
+.feature__gallery .back1 {
+  background-image: url(/img/simon/photos/mydva.jpg);
+}
+
+.feature__gallery .back2 {
+  background-image: url(/img/simon/photos/kutnahora.jpg);
+}
+
+.feature__gallery .back3 {
+  background-image: url(/img/simon/photos/mydvapodebrady.jpg);
+}
+
+.feature__gallery .back4 {
+  background-image: url(/img/simon/photos/partysalsa.jpg);
+}
+
+.feature__gallery .back5 {
+  background-image: url(/img/simon/photos/kikaamyles.jpg);
+}
+
+.feature__gallery .back6 {
+  background-image: url(/img/simon/photos/kikaamy.jpg);
+}
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1500px) and (max-width: 1920px) {
   .header {
