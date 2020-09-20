@@ -102,7 +102,7 @@ $comment = filter_input(INPUT_POST, 'comment');
 
 
 $to		= 	"simon.buryan@seznam.cz";
-$subject	=		$name . "se ptá na svatbu";
+$subject	=		$name . " se ptá na Tvojí svatbu";
 
 $message_head	=	"<div style='max-width: 550px; margin: 0 auto; line-height: 1.5rem; font-size: 0.9rem;'>" .
                 "<p>Krásný den, </p><p> někdo po Tobě chce něco kvůli svatbě.</p></div><br>";
